@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googlemock\;CMake Files\test\lib\googlemock\cmake\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/sous/Documents/coding/Programmieren\ 2/PR2_SS2023_VorlesungsCode/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/src/Dummy.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/src/Dummy.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\test\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\test\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/sous/Documents/coding/Programmieren 2/PR2_SS2023_VorlesungsCode/test/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
